@@ -63,5 +63,12 @@ border-radius: 5px;
     margin-top: 20px;
     padding: 16px 0;
     cursor: pointer;
+    opacity: 0.6;
     background: rgb(241, 63, 19);
+    pointer-events: none;
+}
+
+.wrapper textarea:valid ~ .save-btn{
+    opacity: 1;
+    pointer-events: auto;
 }
